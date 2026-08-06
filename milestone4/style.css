@@ -1,0 +1,38 @@
+.headset{
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) repeat(5, minmax(0,50px)) minmax(0px, 1fr);
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.headtest{
+    border: 1px solid #000000;
+}
+
+#top{
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-columns: minmax(30px, 1fr) minmax(200px, 1fr);
+    background-color: rgba(0, 255, 0, 0.3)
+
+}
+
+#mainset{
+    display: grid;
+    grid-template-columns: minmax(50px, 1fr) repeat(3, minmax(0,200px)) minmax(50px, 1fr);
+    border: 2px solid #000000;
+}
+
+.maintest{
+    display: grid;
+    border: 1px solid #000000;
+    background-color: rgba(255, 0, 0, 0.3)
+
+}
+
+#footerset{
+    display: grid;
+    border: solid 2px #000000;
+    background-color: rgba(255,255,0,0.3)
+}
